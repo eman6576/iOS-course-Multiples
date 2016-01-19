@@ -101,6 +101,12 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="addCoinButton" destination="Ftd-qU-pAq" id="eBQ-Cr-12L"/>
+                        <outlet property="multiplesLabel" destination="3Mm-O2-6IH" id="saX-fJ-c7f"/>
+                        <outlet property="numberTextField" destination="hoH-sf-dnJ" id="cb5-5a-QIe"/>
+                        <outlet property="playButton" destination="k50-QA-Vxa" id="FXw-QQ-wZ6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
