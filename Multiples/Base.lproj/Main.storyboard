@@ -43,6 +43,9 @@
                                     <constraint firstAttribute="width" constant="191" id="m3z-Uq-Qhb"/>
                                 </constraints>
                                 <state key="normal" image="playbuttonarrow"/>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8f-kn-DeD"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the multiples of any number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hoH-sf-dnJ" userLabel="NumberTextField">
                                 <rect key="frame" x="173" y="369" width="254" height="30"/>
