@@ -26,9 +26,21 @@ class ViewController: UIViewController {
     @IBAction func playButtonPressed(sender: UIButton!) {
         
         if numberTextField.text != nil && numberTextField.text != "" {
-            
             baseNumber = Int(numberTextField.text!)!
             startGame()
+        }
+    }
+    
+    @IBAction func addCoinButtonPressed(sender: UIButton!) {
+        
+        newMultiple = previousMultiple + baseNumber
+        multiplesLabel.text = "\(previousMultiple) + \(baseNumber) = \(newMultiple)"
+        previousMultiple = newMultiple
+        
+        if currentIteration == numberOfIterations {
+            restartGame()
+        } else {
+            currentIteration++
         }
     }
     
@@ -41,6 +53,16 @@ class ViewController: UIViewController {
         addCoinButton.hidden = false
         
         multiplesLabel.text = "Press the coin to add!!!"
+    }
+    
+    func restartGame() {
+        
+        numberTextField.hidden = false
+        numberTextField.text = ""
+        playButton.hidden = false
+        
+        multiplesLabel.hidden = true
+        addCoinButton.hidden = true
     }
 }
 
