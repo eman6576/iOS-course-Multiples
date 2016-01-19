@@ -62,6 +62,14 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftd-qU-pAq">
+                                <rect key="frame" x="178" y="285" width="244" height="268"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="1AK-08-I5l"/>
+                                    <constraint firstAttribute="height" constant="268" id="boo-nf-C0y"/>
+                                </constraints>
+                                <state key="normal" image="coin"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -72,13 +80,16 @@
                             <constraint firstAttribute="trailingMargin" secondItem="7vO-ZX-g2B" secondAttribute="trailing" constant="-20" id="F8Q-bi-4dH"/>
                             <constraint firstItem="7vO-ZX-g2B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="HK9-MI-qH9"/>
                             <constraint firstItem="hoH-sf-dnJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MKl-kn-LPJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ftd-qU-pAq" secondAttribute="bottom" constant="47" id="SW1-fi-bTJ"/>
                             <constraint firstItem="k50-QA-Vxa" firstAttribute="top" secondItem="hoH-sf-dnJ" secondAttribute="bottom" constant="24" id="VGJ-pA-nIP"/>
                             <constraint firstItem="hoH-sf-dnJ" firstAttribute="top" secondItem="3Mm-O2-6IH" secondAttribute="bottom" constant="221" id="WKn-5n-Pyn"/>
                             <constraint firstItem="3Mm-O2-6IH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YyP-e4-tPa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7vO-ZX-g2B" secondAttribute="bottom" id="Zz1-7N-lMK"/>
                             <constraint firstItem="eBl-Yp-zkW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ars-fB-WmB"/>
                             <constraint firstItem="eBl-Yp-zkW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gTJ-fo-Qwx"/>
+                            <constraint firstItem="Ftd-qU-pAq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ikV-6D-aET"/>
                             <constraint firstItem="3Mm-O2-6IH" firstAttribute="top" secondItem="eBl-Yp-zkW" secondAttribute="bottom" constant="57" id="soW-Pf-ro3"/>
+                            <constraint firstItem="Ftd-qU-pAq" firstAttribute="top" secondItem="3Mm-O2-6IH" secondAttribute="bottom" constant="137" id="ug9-S6-gQx"/>
                             <constraint firstItem="7vO-ZX-g2B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="xpk-gP-7c3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="k50-QA-Vxa" secondAttribute="bottom" constant="33" id="zGf-Ha-XS8"/>
                         </constraints>
@@ -98,6 +109,7 @@
     </scenes>
     <resources>
         <image name="Multiples" width="705" height="103"/>
+        <image name="coin" width="244" height="268"/>
         <image name="playbuttonarrow" width="333" height="252"/>
         <image name="retro backgruond03" width="1667" height="1667"/>
     </resources>
